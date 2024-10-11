@@ -1,0 +1,19 @@
+services:
+
+  db:
+    image: ankane/pgvector
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=dvdrental
+      - POSTGRES_HOST=db
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    restart: always
+    ports:
+      - 54321:5432
+    volumes:
+      - data:/var/lib/postgresql/data
+
+volumes:
+  data:
+    driver: local
