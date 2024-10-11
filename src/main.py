@@ -68,6 +68,7 @@ def main():
         agents=[sql_developer_agent, sql_execution_agent, data_analyst_agent],
         tasks=[sql_developer_task, sql_execution_task, data_analyst_task],
         process=Process.hierarchical,
+        planning=True,
     )
 
     # Start the process
@@ -76,7 +77,9 @@ def main():
         "user_question": user_question,
         "database_description": database_description,
     }
-    result = crew.kickoff(inputs=inputs)
+    result = crew.kickoff(
+        inputs=inputs,
+    )
 
     # Print final insights
     print("\n\n################################################")

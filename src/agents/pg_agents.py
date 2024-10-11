@@ -158,7 +158,7 @@ class PostgreSqlAgents:
                 - Handle any exceptions or errors gracefully, providing alternative solutions if necessary.
                 """),
             llm=get_chat_llm(
-                model="gpt-4o-mini",
+                model="gpt-4o",
                 json_mode=False,
                 max_tokens=4000,
             ),
