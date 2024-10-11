@@ -61,7 +61,7 @@ The Manager Agent coordinates these tasks, ensuring smooth execution and integra
 
 ### Prerequisites
 
-- **Python 3.8 or higher**
+- **Python 3.12** (not tested with <3.12)
 - **Docker and Docker Compose** (for setting up the PostgreSQL database)
 - **An OpenAI API key** (to access GPT models)
 
