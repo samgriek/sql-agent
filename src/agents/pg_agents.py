@@ -5,6 +5,7 @@ from textwrap import dedent
 from crewai import Agent
 from llms import get_chat_llm
 
+
 class PostgreSqlAgents:
     def sql_developer_agent(self):
         return Agent(

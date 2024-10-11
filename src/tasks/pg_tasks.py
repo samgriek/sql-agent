@@ -3,6 +3,7 @@
 from textwrap import dedent
 from crewai import Task
 
+
 class PostgreSQLTasks:
     def create_sql_developer_task(self, user_question, database_description, agent):
         return Task(
