@@ -87,7 +87,7 @@ OPENAI_API_KEY=your-openai-api-key-here
 
    ```bash
    git clone https://github.com/samgriek/sql-agent.git
-   cd sql-query-analysis-crew
+   cd sql-agent
    ```
 
 2. **Create a virtual environment:**
