@@ -1,6 +1,6 @@
 # SQL Query and Analysis Crew
 
-Welcome to the **SQL Query and Analysis Crew** project! This application leverages the power of AI agents to generate, execute, and analyze the resulting dara from user questions. It integrates with a PostgreSQL database and uses OpenAI's GPT models to process and analyze data.
+Welcome to the **SQL Query and Analysis Crew** project! This application leverages the power of AI agents to generate, execute, and analyze the resulting data from user questions. It integrates with a PostgreSQL database and uses OpenAI's GPT models to process and analyze data.
 
 ## Table of Contents
 
